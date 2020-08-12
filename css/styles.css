@@ -363,9 +363,47 @@ background-image: url(../images/features/antenna.svg);
   margin-right: 10px;
 }
 
+.employee-link{
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    border-radius: 50%;
+}
+
 .clients-item {
   margin-right: 30px;
 }
+
+.client-blank{
+  display: flex;
+    width: 170px;
+    height: 90px;
+    color: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-blank:hover,
+.client-blank:focus{
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.logo-client{
+  width: 45px;
+  height: 50px;
+  fill: currentColor;
+}
+ .logo-client:hover,
+ .logo-client:focus{
+   fill: var(--accent-color);
+ }
+
 footer {
   background: #2f303a;
 }
